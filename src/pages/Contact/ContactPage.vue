@@ -4,31 +4,31 @@
       <p><a href="mailto:maksimkish@gmail.com">maksimkish@gmail.com</a></p>
       <div class="icons">
         <a
-            class="link"
-            href="https://www.linkedin.com/in/maksym-kulish/"
-            target="_blank"
-            rel="noopener"
-            title="Open on Linkedin"
+          class="link"
+          href="https://www.linkedin.com/in/maksym-kulish/"
+          target="_blank"
+          rel="noopener"
+          title="Open on Linkedin"
         >
           <img class="icon"  src="@/assets/image/icons/icon-linkedin.svg" alt="" aria-hidden="true" />
           <span class="text">Linkedin</span>
         </a>
         <a
-            class="link"
-            href="https://www.instagram.com/maxblax/"
-            target="_blank"
-            rel="noopener"
-            title="Open on Instagram"
+          class="link"
+          href="https://www.instagram.com/maxblax/"
+          target="_blank"
+          rel="noopener"
+          title="Open on Instagram"
         >
           <img class="icon"  src="@/assets/image/icons/icon-instagram.svg" alt="" aria-hidden="true" />
           <span class="text">Instagram</span>
         </a>
         <a
-            class="link"
-            href="https://www.facebook.com/kulishmaksym"
-            target="_blank"
-            rel="noopener"
-            title="Open on Instagram"
+          class="link"
+          href="https://www.facebook.com/kulishmaksym"
+          target="_blank"
+          rel="noopener"
+          title="Open on Instagram"
         >
           <img class="icon"  src="@/assets/image/icons/icon-facebook.svg" alt="" aria-hidden="true" />
           <span class="text">Facebook</span>

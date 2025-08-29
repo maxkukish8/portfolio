@@ -10,6 +10,8 @@
         <li><span>11y & UX:</span> WCAG, keyboard navigation, prefers-reduced-motion</li>
       </ul>
       <p>The design incorporates elements of Ukrainian folk art.</p>
+      <p>This project uses Kyiv*Type fonts and icons, commissioned for the Kyiv city<br>
+        identification by Projector, Dmytro Bulanov Creative Büro, and Banda Agency.</p>
       <p class="credits">
         Design inspired by
         <a href="https://www.instagram.com/p5aholic/" target="_blank" rel="noopener noreferrer">

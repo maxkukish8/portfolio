@@ -103,4 +103,4 @@ npm run format
 - Design inspiration: Keita Yamada — p5aholic.me
   │“Design inspired by Keita Yamada (p5aholic).”
 - Cultural influence: Ukrainian folk-art elements and textures.
-- Fonts/images: ensure you have the right to use bundled assets (e.g., KyivType or substitutes).
+- Fonts & Icons: Kyiv*Type — commissioned for the Kyiv city identity by Projector, Dmytro Bulanov Creative Büro, and Banda Agency.

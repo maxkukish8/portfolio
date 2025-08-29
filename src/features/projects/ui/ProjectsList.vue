@@ -2,7 +2,10 @@
   <div class="list">
     <div v-for="p in projects" :key="p.id" class="item">
       <div class="wrapper">
-        <a :href="p.url" target="_blank" rel="noopener">{{ p.title }}</a>
+        <a :href="p.url" target="_blank" rel="noopener" class="title-link">
+          <span v-if="p.icon" class="kyiv-icon" aria-hidden="true">{{ p.icon }}</span>
+          {{ p.title }}
+        </a>
         <a
             v-if="p.giturl"
             class="gh-link"
@@ -45,6 +48,10 @@ onMounted(async () => { projects.value = await ProjectsService.list(); });
     display: flex;
     align-items: end;
     gap: 10px;
+
+    :root.dark & {
+      align-items: baseline;
+    }
   }
 
   a {

@@ -146,6 +146,10 @@ watch(() => route.path, async (p, old) => {
   flex-direction: column;
   gap: 12px;
   margin: 30px 5px 0;
+
+  :root.dark & {
+    gap: 22px;
+  }
 }
 
 .menu-item {

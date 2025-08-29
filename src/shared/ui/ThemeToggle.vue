@@ -62,7 +62,7 @@ onMounted(() => {
       content: "";
       position: absolute;
       top: 50%;
-      transform: translateY(-50%);
+      transform: translateY(-60%);
       left: 0;
       border: 1px solid #f7f7f7;
       inline-size: 0.55em;

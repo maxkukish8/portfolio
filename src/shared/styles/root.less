@@ -1,55 +1,6 @@
 @import (reference) './variables.less';
-
-/* KyivType Sans */
-@font-face {
-  font-family: 'KyivType Sans';
-  src: url('@/assets/fonts/kyivtype/KyivTypeSans-Thin.woff2') format('woff2');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'KyivType Sans';
-  src: url('@/assets/fonts/kyivtype/KyivTypeSans-Light.woff2') format('woff2');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'KyivType Sans';
-  src: url('@/assets/fonts/kyivtype/KyivTypeSans-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'KyivType Sans';
-  src: url('@/assets/fonts/kyivtype/KyivTypeSans-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'KyivType Sans';
-  src: url('@/assets/fonts/kyivtype/KyivTypeSans-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'KyivType Sans';
-  src: url('@/assets/fonts/kyivtype/KyivTypeSans-Heavy.woff2') format('woff2');
-  font-weight: 800;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'KyivType Sans';
-  src: url('@/assets/fonts/kyivtype/KyivTypeSans-Black.woff2') format('woff2');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
+@import './fonts.less';
+@import './icons.less';
 
 :root {
   --c-bg:      @bgLight;
@@ -64,6 +15,7 @@
   --c-bg:      @bgDark;
   --c-fg:      @fgDark;
   --c-border:  @borderDark;
+  --ff-base:   'Pixel7', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Inter, Arial, sans-serif;
   --m-bg:      @bgDark;
   --m-deep-bg: @bgDark;
 }

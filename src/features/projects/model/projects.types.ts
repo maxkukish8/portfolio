@@ -6,4 +6,5 @@ export interface Project {
     date?: string;
     tags?: string[];
     description?: string;
+    icon?: string;
 }

@@ -59,6 +59,10 @@ import plate3 from '@/assets/image/plate3.png';
   left: -50px;
   z-index: 4;
   transform: rotate(-90deg);
+
+  :root.dark & {
+    left: -47px;
+  }
 }
 
 .copyright {
