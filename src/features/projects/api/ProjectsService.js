@@ -1,10 +1,8 @@
-import type { Project } from '../model/projects.types';
-
 export const ProjectsService = {
-    async list(): Promise<Project[]> {
+    async list() {
         return [
             { id: 'biogas101', title: 'Biogas101', url: 'https://biogas101.com',
-                tags: ['Dev', 'WordPress','HTML, SCSS, JavaScript, JSON, Node.js, Fastify, REST API, Docker'],
+                tags: ['Dev', 'WordPress', 'HTML, SCSS, JavaScript, JSON, Node.js, Fastify, REST API, Docker'],
                 icon: 'B'
             },
             { id: 'directfabrics', title: 'Direct fabrics', url: 'https://www.direct-fabrics.co.uk/',
@@ -16,7 +14,7 @@ export const ProjectsService = {
                 icon: 'b'
             },
             { id: 'spacecamper', title: 'Spacecamper', url: 'https://www.spacecamper-shop.de/',
-                tags: ['Dev', 'Magento','HTML, LESS, jQuery, PHP'],
+                tags: ['Dev', 'Magento', 'HTML, LESS, jQuery, PHP'],
                 icon: 'O'
             },
             { id: '8wines', title: '8wines', url: 'https://8wines.com/',
@@ -57,7 +55,7 @@ export const ProjectsService = {
             },
             { id: 'pacewargame', title: 'Space war game', url: 'https://maxkukish8.github.io/mkulish-testwork/',
                 giturl: 'https://github.com/maxkukish8/mkulish-testwork/',
-                tags: ['Dev/Design', 'TypeScript','PixiJS', 'Webpack', 'Tween.js'],
+                tags: ['Dev/Design', 'TypeScript', 'PixiJS', 'Webpack', 'Tween.js'],
                 icon: 'Y'
             },
             { id: 'flightapp', title: 'Flight App', url: 'https://maxkukish8.github.io/flight-app',
@@ -67,7 +65,7 @@ export const ProjectsService = {
             },
             { id: 'musicapp', title: 'Music App', url: 'https://p01--music-tracks-api--kyj4sxk6dnw9.code.run/',
                 giturl: 'https://github.com/maxkukish8/music-tracks-app.git',
-                tags: ['Dev/Design', 'Vue 3','Vite', 'SCSS', 'Fastify', 'Docker', 'Northflank', 'Node.js'],
+                tags: ['Dev/Design', 'Vue 3', 'Vite', 'SCSS', 'Fastify', 'Docker', 'Northflank', 'Node.js'],
                 icon: 'C'
             },
             { id: 'shoppingcartapp', title: 'Shopping Cart App', url: 'https://maxkukish8.github.io/mkulish-testwork-ui-arts/',
