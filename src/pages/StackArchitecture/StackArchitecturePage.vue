@@ -5,7 +5,7 @@
         <li><span>Framework & Language:</span> Vue 3, TypeScript</li>
         <li><span>Architecture:</span> modular approach, separation of business logic and UI</li>
         <li><span>Styles:</span> Less, tokens, theming (light/dark)</li>
-        <li><span>Routing/State:</span> vue-router, Pinia (if needed)</li>
+        <li><span>Routing/State:</span> vue-router, Pinia</li>
         <li><span>Tooling:</span> Vite, ESLint/Prettier, vite-tsconfig-paths</li>
         <li><span>11y & UX:</span> WCAG, keyboard navigation, prefers-reduced-motion</li>
       </ul>
